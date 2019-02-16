@@ -1,0 +1,50 @@
+img{
+  width: 100px;
+  height:100px;
+  padding-top:23px
+}
+.s1{
+  border:2px solid #ddd;
+  margin:1%;
+  padding: 1%;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.maindiv{
+  display:flex;
+  border: 3px inset #ddd;
+  flex-wrap: wrap;
+}
+@media only screen and(max-width:425px) {
+  .maindiv{
+    display:flex;
+    border: 3px inset #ddd;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+}
+@media only screen and(min-width:420px)and(max-width:760px) {
+  .maindiv{
+    display:flex;
+    border: 3px inset #ddd;
+
+
+    flex-direction: column-reverse;
+
+  }
+}
+
+  @media only screen and(min-width:760px)and(max-width:1024px) {
+    .maindiv{
+      display:flex;
+      border: 3px inset #ddd;
+      flex-wrap: wrap;
+
+      flex-direction: row-reverse;
+
+    }
+  }
